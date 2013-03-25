@@ -20,6 +20,10 @@ This box is far from complete.  Please raise issues with things you'd like to se
 vagrant up
 ```
 
+## Copying to your project
+
+You can just copy the Vagrantfile to the root of your project and make a few changes described in the **Configuration** section below
+
 ## Configuration
 
 A very basic configuration is already available.  You could actually just work off of that, but the things you'll probably want to change are:
@@ -47,7 +51,9 @@ A very basic configuration is already available.  You could actually just work o
 ```
 
 ###Change the provisioning instructions
-See setup.sh below for more info
+See setup.sh below for more info.  If you're copying to your own project, you can delete the provision line or 
+point it to some custom shell setup you have.  Switch to chef-solo if you want, I don't care, it's your stupid 
+project.  Geez!
 
 *Default: setup.sh shell provisioner*
 
