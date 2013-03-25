@@ -7,6 +7,8 @@ This is a very basic Vagrant box developed as a foundation for Raybeam projects.
 * postgres + header files
 * mysql + header files
 
+This box is far from complete.  Please raise issues with things you'd like to see or, better yet, add it yourself and create a pull request.
+
 ## Installation
 
 1. Get [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html)
