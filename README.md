@@ -3,9 +3,11 @@
 This is a very basic Vagrant box developed as a foundation for Raybeam projects.  It includes:
 
 * build-essential
+* ruby 2.0
 * redis
 * postgres + header files
 * mysql + header files
+* bundler
 
 This box is far from complete.  Please raise issues with things you'd like to see or, better yet, add it yourself and create a pull request.
 
